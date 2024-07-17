@@ -23,7 +23,7 @@ function App() {
   const [background, setBackground] = useState(clearbg);
   const [loadingData, setLoadingData] = useState(false);
 
-  const api_key = '9399ce923b372cf04639cc79a327a187';
+  const api_key = 'My-API';
 
   useEffect(() => {
     search();
